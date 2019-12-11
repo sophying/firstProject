@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+
+		name = "jdbc/MariaDB" 
+
+		auth = "Container"
+
+		type = "javax.sql.DataSource"
+
+		driverClassName = "org.mariadb.jdbc.Driver"
+
+		url="jdbc:mariadb://localhost:3306/first" 
+		
+		username = "sophy"
+
+		password = "112834"
+
+		maxActive="500" 
+
+		maxIdle = "100"
+		
+		
+		validationQuery = "select 1 from dual"
+		
+        testOnBorron = "false"
+        
+        poolPreparedStatements = "true" 
+		
+
+	/>
+</Context>
